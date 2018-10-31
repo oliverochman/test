@@ -4,5 +4,11 @@
   "description": "Address book challenge",
   "main": "index.js",
   "author": "oliverochman <oliver.ochman@hotmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "cucumber": "^5.0.2",
+    "puppeteer": "^1.9.0",
+    "superstatic": "^6.0.3"
+  }
 }
