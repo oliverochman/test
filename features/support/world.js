@@ -24,6 +24,12 @@ class AddressBookWorld {
   async closeHomePage() {
     await this.browser.close()
   }
+
+  async clickOnAddContactBtn() {
+    const btnSelector = '.add-contact'
+    await this.page.waitForSelector(btnSelector)
+    await this.page.click(btnSelector)
+  }
 }
 
 setWorldConstructor(AddressBookWorld)
