@@ -1,0 +1,8 @@
+{
+  "name": "address_book",
+  "version": "1.0.0",
+  "description": "Address book challenge",
+  "main": "index.js",
+  "author": "oliverochman <oliver.ochman@hotmail.com>",
+  "license": "MIT"
+}
